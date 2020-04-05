@@ -21,7 +21,7 @@ public class HelloResource {
     @GetMapping
     public String hello() {
         return "Hello World";
-    }
+    }	
 
     @ApiOperation(value = "Returns Hello World")
     @PostMapping("/post")
